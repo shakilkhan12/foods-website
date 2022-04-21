@@ -1,10 +1,11 @@
-const path = require("path")
-module.exports = {
+const {resolve} = require("path")
+const { defineConfig } = require('vite')
+module.exports = defineConfig({
     build: {
-        rollupOptions: {
-          input: {
-            'entry-point-a': path.resolve(__dirname, 'src/index.html'),
-          },
+      rollupOptions: {
+        input: {
+          main: resolve(__dirname, 'src/index.html')
         }
-      },
-}
+      }
+    }
+  })
