@@ -92,7 +92,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "CI= rpm run build/src"
+    "build": "CI= rpm run build"
 
   },
   "keywords": [],
