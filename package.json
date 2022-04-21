@@ -91,7 +91,9 @@
     "vite": "^2.8.6"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build src"
+
   },
   "keywords": [],
   "author": "",
