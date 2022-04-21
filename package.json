@@ -92,7 +92,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/src/"
+    "build": "vite build --base=/src/index.html"
 
   },
   "keywords": [],
