@@ -1,0 +1,38 @@
+.header {
+  @apply w-full bg-gradient-to-b from-orange-100 to-transparent;
+}
+.header-container {
+  @apply max-w-screen-xl mx-auto relative px-6;
+}
+.header-logo {
+  @apply absolute top-6 left-6 w-auto h-[40px];
+}
+.header-row {
+  @apply flex flex-wrap items-center pt-28 xl:pt-20 -mx-5 sm:justify-center;
+}
+.header-col-left {
+  @apply w-full lg:w-6/12 md:pr-10 z-20 p-5;
+}
+.header-badge {
+  @apply lg:text-orange-800 font-medium text-xs bg-amber-100 inline-block py-2 px-3 rounded-3xl;
+}
+.header-heading {
+  @apply lg:text-black text-4xl sm:text-5xl sm:leading-[55px] leading-[40px] font-bold mt-5 capitalize w-full md:w-9/12 lg:w-full;
+}
+.header-paragraph {
+  @apply text-base font-normal leading-[24px] sm:leading-6 text-gray-500;
+}
+.customers-list {
+  @apply w-[40px] h-[40px] overflow-hidden rounded-full border-[3.5px] border-orange-50 -ml-3 first:-ml-0;
+}
+
+/* nav styles */
+.nav {
+  @apply fixed top-0 w-full h-full bg-black/40 z-20 -right-full transition-all duration-200;
+}
+.nav-container {
+  @apply w-full sm:w-6/12 lg:w-4/12 xl:w-3/12 bg-orange-50 h-full absolute top-0 right-0 flex items-center;
+}
+.nav-link {
+  @apply px-4 py-3 w-full block hover:bg-orange-700 transition-all duration-300 text-orange-800 hover:text-white hover:pl-6 capitalize;
+}

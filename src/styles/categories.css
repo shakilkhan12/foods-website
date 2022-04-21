@@ -1,0 +1,7 @@
+/* categories styles */
+.cat-block {
+  @apply block w-full h-[140px] sm:h-[120px] overflow-hidden rounded-md relative before:absolute before:inset-0 before:w-full before:h-full before:bg-orange-500 before:scale-0 hover:before:scale-150 before:transition-all before:duration-700 before:origin-top-right before:rounded-full hover:before:rounded-none before:z-40;
+}
+.cat-layer {
+  @apply absolute top-0 left-0 w-full h-full bg-black/60 flex items-center justify-center;
+}

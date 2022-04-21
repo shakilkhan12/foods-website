@@ -1,0 +1,12 @@
+.reviews {
+  @apply py-20;
+}
+.reviews-heading {
+  @apply text-3xl font-medium;
+}
+.reviews-p {
+  /* @apply text-green-500 mt-5 text-xs; */
+}
+.reviews-message {
+     @apply text-gray-600 text-base leading-[28px];
+}

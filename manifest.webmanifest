@@ -1,0 +1,12 @@
+{
+    "name": "Caferio Online Foods",
+    "start_url": "/index.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "theme_color": "#3367D6",
+    "icons": [
+      { "src": "./src/assets/favicon-192.png", "type": "image/png", "sizes": "192x192" },
+      { "src": "./src/assets/favicon-512.png", "type": "image/png", "sizes": "512x512" }
+    ]
+  }
+  

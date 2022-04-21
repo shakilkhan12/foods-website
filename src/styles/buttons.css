@@ -1,0 +1,3 @@
+.btn {
+  @apply inline-block px-4 py-2 rounded bg-orange-600 text-white capitalize text-sm focus:ring-2 ring-offset-2 ring-orange-500;
+}

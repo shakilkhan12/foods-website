@@ -1,0 +1,12 @@
+.footer--socials {
+    @apply mt-3 flex;
+}
+.footer--socials--link {
+    @apply ml-4 first:ml-0;
+}
+.footer--ul {
+    @apply mt-3;
+}
+.footer--ul li a {
+    @apply block capitalize text-base text-gray-500 mt-3;
+}

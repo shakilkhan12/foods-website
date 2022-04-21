@@ -1,0 +1,18 @@
+.pricing-bg {
+  @apply py-20;
+}
+.pricing-card {
+  @apply bg-yellow-50 px-10 py-20 rounded-lg border-2 border-yellow-300 border-dashed;
+}
+.pricing-heading {
+  @apply text-center uppercase font-semibold text-xl text-orange-700;
+}
+.pricing-icon {
+  @apply w-[25px] h-[25px] rounded-full bg-orange-600 flex items-center justify-center mr-3;
+}
+.pricing-text {
+  @apply capitalize text-gray-600 text-base font-normal;
+}
+.price-label {
+  @apply absolute top-[20px] right-[-15px] py-2 px-5 text-center bg-yellow-500 font-bold uppercase text-orange-900 text-xs sm:text-sm after:absolute after:top-[13px] after:right-[7px] after:h-full after:bg-yellow-600 after:w-10 after:-rotate-[30deg] after:-z-10;
+}
